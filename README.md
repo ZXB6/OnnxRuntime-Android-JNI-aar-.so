@@ -1,6 +1,8 @@
 # OnnxRuntime-Android-JNI-aar-.so
 onnxruntime-android JNI开发 build动态库 aar包
 
+包下载见RELEASE部分
+
 COMMAND:
 ./build.sh --android --android_sdk_path /home/user/Android/Sdk --android_ndk_path /home/user/Android/Sdk/ndk/21.4.XXXX --android_abi arm64-v8a --android_api 28 --use_nnapi --parallel --build_shared_lib --config MinSizeRel
 参考：https://onnxruntime.ai/docs/build/android.html
