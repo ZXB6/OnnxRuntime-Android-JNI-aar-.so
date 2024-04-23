@@ -24,3 +24,8 @@ build出来的.so文件会在onnxruntime/build/Android/MinSizeRel里，
 
 EXAMPLES:
 https://github.com/Rohithkvsp/OnnxRuntimeAndorid
+
+ATTENTION:
+JNI开发中 c++部分使用ONNX模型得转成ORT模型，应使用对应Python版本的onnxruntime：
+ 使用命令行：
+   python -m onnxruntime.tools.convert_onnx_model_to_ort   yolov8n.onnx 
