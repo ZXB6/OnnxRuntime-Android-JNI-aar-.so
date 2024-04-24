@@ -4,13 +4,13 @@ onnxruntime-android JNI开发 build动态库 aar包
 上述为onnxruntime 1.16.3  头部姿态pitch row yaw检测
 包下载见RELEASE部分
 
-COMMAND:
+## COMMAND:
 
 ./build.sh --android --android_sdk_path /home/user/Android/Sdk --android_ndk_path /home/user/Android/Sdk/ndk/21.4.XXXX --android_abi arm64-v8a --android_api 28 --use_nnapi --parallel --build_shared_lib --config MinSizeRel
 
 参考：https://onnxruntime.ai/docs/build/android.html
 
-DETAILS:
+## DETAILS:
 
 –android表示build android版
 
@@ -35,10 +35,10 @@ build出来的.so文件会在onnxruntime/build/Android/MinSizeRel里，
 
 
 
-EXAMPLES:
+## EXAMPLES:
 https://github.com/Rohithkvsp/OnnxRuntimeAndorid
 
-ATTENTION:
+## ATTENTION:
 
 JNI开发中 c++部分使用ONNX模型得转成ORT模型，应使用对应Python版本的onnxruntime：
  使用命令行：
