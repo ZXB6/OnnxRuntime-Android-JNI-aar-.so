@@ -1,7 +1,8 @@
 # OnnxRuntime-Android-JNI-aar-.so
 onnxruntime-android JNI开发 build动态库 aar包
 
-上述为onnxruntime 1.16.3  头部姿态pitch row yaw检测
+上述为onnxruntime 1.16.3  头部姿态pitch row yaw检测   模型链接：https://pan.baidu.com/s/116XJZSygVJy8xzVfyG6ovw?pwd=akne 
+提取码：akne
 包下载见RELEASE部分
 
 ## COMMAND:
