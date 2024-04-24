@@ -5,10 +5,13 @@ onnxruntime-android JNI开发 build动态库 aar包
 包下载见RELEASE部分
 
 COMMAND:
+
 ./build.sh --android --android_sdk_path /home/user/Android/Sdk --android_ndk_path /home/user/Android/Sdk/ndk/21.4.XXXX --android_abi arm64-v8a --android_api 28 --use_nnapi --parallel --build_shared_lib --config MinSizeRel
+
 参考：https://onnxruntime.ai/docs/build/android.html
 
 DETAILS:
+
 –android表示build android版
 android_sdk_path： 你的Sdk文件夹
 android_ndk_path：Sdk下面的ndk文件夹(到版本文件夹下)，但是具体要看你的项目用的是哪个版本
@@ -27,6 +30,7 @@ EXAMPLES:
 https://github.com/Rohithkvsp/OnnxRuntimeAndorid
 
 ATTENTION:
+
 JNI开发中 c++部分使用ONNX模型得转成ORT模型，应使用对应Python版本的onnxruntime：
  使用命令行：
    python -m onnxruntime.tools.convert_onnx_model_to_ort   yolov8n.onnx 
