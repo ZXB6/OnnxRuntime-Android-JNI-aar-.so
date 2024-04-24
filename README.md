@@ -13,14 +13,23 @@ COMMAND:
 DETAILS:
 
 –android表示build android版
+
 android_sdk_path： 你的Sdk文件夹
+
 android_ndk_path：Sdk下面的ndk文件夹(到版本文件夹下)，但是具体要看你的项目用的是哪个版本
+
 android_api：看你的项目是哪个版本，具体在哪里可以查看参考官方build for android文档
+
 parallel: 并行编译
+
 build_shared_lib: 使用就是编译动态库，不使用就是静态库
+
 config: 有4种选项[“Debug”, “MinSizeRel”, “Release”, “RelWithDebInfo”]，参考 https://zhuanlan.zhihu.com/p/411887386
+
 --build_shared_lib 有就是动态.so 无就是静态.a
+
 build出来的.so文件会在onnxruntime/build/Android/MinSizeRel里，
+
 把它copy到项目放动态库的文件夹里，
 修改相关设置，CMakeLists.txt.
 
