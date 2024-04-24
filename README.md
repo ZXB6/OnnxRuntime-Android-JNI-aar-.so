@@ -1,13 +1,13 @@
 # OnnxRuntime-Android-JNI-aar-.so
 onnxruntime-android JNI开发 build动态库 aar包
-
+上述为onnxruntime 1.16.3  头部姿态pitch row yaw检测
 包下载见RELEASE部分
 
 COMMAND:
 ./build.sh --android --android_sdk_path /home/user/Android/Sdk --android_ndk_path /home/user/Android/Sdk/ndk/21.4.XXXX --android_abi arm64-v8a --android_api 28 --use_nnapi --parallel --build_shared_lib --config MinSizeRel
 参考：https://onnxruntime.ai/docs/build/android.html
 
-Details:
+DETAILS:
 –android表示build android版
 android_sdk_path： 你的Sdk文件夹
 android_ndk_path：Sdk下面的ndk文件夹(到版本文件夹下)，但是具体要看你的项目用的是哪个版本
